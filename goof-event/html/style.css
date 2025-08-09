@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#container {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    display: none; 
+}
+
+
+input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    width: 45%;
+    margin: 10px 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#submitBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#cancelBtn {
+    background-color: #f44336;
+    color: white;
+}
